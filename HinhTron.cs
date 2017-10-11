@@ -1,48 +1,43 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HinhTron
+namespace HinhTron_Diem
 {
     public class HinhTron
     {
-        private int x;
-        private int y;
+        private Diem i;
         private double R;
 
         public HinhTron()
         {
-            this.x = 0;
-            this.y = 0;
+            this.i = new Diem();
             this.R = 0;
         }
-        public HinhTron(int a, int b, double c)
+        public HinhTron(Diem a, double c)
         {
-            this.x = a;
-            this.y = b;
+            this.i = new Diem(a);
             this.R = c;
         }
         public HinhTron(HinhTron a)
         {
-            this.x = a.x;
-            this.y = a.y;
+            this.i = a.i;
             this.R = a.R;
         }
 
         public void nhap()
         {
-            Console.Write("x: ");
-            this.x = int.Parse(Console.ReadLine());
-            Console.Write("y: ");
-            this.y = int.Parse(Console.ReadLine());
+            Console.WriteLine("Tam I: ");
+            this.i.nhap();
             Console.Write("Ban Kinh R: ");
             this.R = Double.Parse(Console.ReadLine());
         }
         public void xuat()
         {
-            Console.WriteLine("Tam I = ({0},{1})", this.x, this.y);
+            Console.Write("Tam I = ");
+            this.i.xuat();
             Console.WriteLine("BK R = {0}", this.R);
         }
         public double dientich()
@@ -59,7 +54,7 @@ namespace HinhTron
         }
         public void ktHL()
         {
-            double a = Math.Sqrt(this.x * this.x+ this.y * this.y - this.R * this.R);
+            double a = Math.Sqrt(this.i.X * this.i.X + this.i.Y * this.i.Y - this.R * this.R);
             if (this.R == a)
                 Console.WriteLine("Duong Tron Hop Le");
             else
