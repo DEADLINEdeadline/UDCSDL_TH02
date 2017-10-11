@@ -1,0 +1,5 @@
+C:\Users\KyleRay\Desktop\1560195\NhanVien_Nguoi\bin\Debug\NhanVien_Nguoi.exe.config
+C:\Users\KyleRay\Desktop\1560195\NhanVien_Nguoi\bin\Debug\NhanVien_Nguoi.exe
+C:\Users\KyleRay\Desktop\1560195\NhanVien_Nguoi\bin\Debug\NhanVien_Nguoi.pdb
+C:\Users\KyleRay\Desktop\1560195\NhanVien_Nguoi\obj\Debug\NhanVien_Nguoi.exe
+C:\Users\KyleRay\Desktop\1560195\NhanVien_Nguoi\obj\Debug\NhanVien_Nguoi.pdb

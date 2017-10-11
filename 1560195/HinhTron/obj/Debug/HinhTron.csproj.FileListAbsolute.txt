@@ -1,0 +1,6 @@
+C:\Users\KyleRay\Desktop\1560195\HinhTron\bin\Debug\HinhTron.exe.config
+C:\Users\KyleRay\Desktop\1560195\HinhTron\bin\Debug\HinhTron.exe
+C:\Users\KyleRay\Desktop\1560195\HinhTron\bin\Debug\HinhTron.pdb
+C:\Users\KyleRay\Desktop\1560195\HinhTron\obj\Debug\HinhTron.csprojResolveAssemblyReference.cache
+C:\Users\KyleRay\Desktop\1560195\HinhTron\obj\Debug\HinhTron.exe
+C:\Users\KyleRay\Desktop\1560195\HinhTron\obj\Debug\HinhTron.pdb
