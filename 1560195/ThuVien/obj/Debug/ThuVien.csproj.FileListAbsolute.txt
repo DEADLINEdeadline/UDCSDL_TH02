@@ -1,5 +1,0 @@
-C:\Users\KyleRay\Desktop\1560195\ThuVien\bin\Debug\ThuVien.exe.config
-C:\Users\KyleRay\Desktop\1560195\ThuVien\bin\Debug\ThuVien.exe
-C:\Users\KyleRay\Desktop\1560195\ThuVien\bin\Debug\ThuVien.pdb
-C:\Users\KyleRay\Desktop\1560195\ThuVien\obj\Debug\ThuVien.exe
-C:\Users\KyleRay\Desktop\1560195\ThuVien\obj\Debug\ThuVien.pdb
