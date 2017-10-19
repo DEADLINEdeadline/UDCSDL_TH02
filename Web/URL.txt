@@ -1,0 +1,13 @@
+/vuiitachi.co.nf/BTCN06/header.php
+/vuiitachi.co.nf/BTCN06/footer.php
+/vuiitachi.co.nf/BTCN06/functions.php
+/vuiitachi.co.nf/BTCN06/index.php
+/vuiitachi.co.nf/BTCN06/init.php
+/vuiitachi.co.nf/BTCN06/login.php
+/vuiitachi.co.nf/BTCN06/logout.php
+/vuiitachi.co.nf/BTCN06/newfeed.php
+/vuiitachi.co.nf/BTCN06/newpass.php
+/vuiitachi.co.nf/BTCN06/password.php
+/vuiitachi.co.nf/BTCN06/register.php
+/vuiitachi.co.nf/BTCN06/rename.php
+/vuiitachi.co.nf/BTCN06/status.php
