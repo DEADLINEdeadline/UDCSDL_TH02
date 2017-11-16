@@ -1,5 +1,4 @@
-﻿using Login.DAO;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,42 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Login
+namespace QuanLy
 {
-    public partial class frmLogin : Form
+    public partial class Form1 : Form
     {
-        public frmLogin()
+        public Form1()
         {
             InitializeComponent();
         }
-        private void btnLogin_Click(object sender, EventArgs e)
-        {
-            string userName = txtUsername.Text, passWord = txtPassword.Text;
 
-            if (Login(userName, passWord))
-            {
-                frmAdmin admin = new frmAdmin();
-                this.Hide();
-                admin.ShowDialog();
-                this.Show();
-            }
-            else
-            {
-                MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu");
-            }
-        }
-
-        bool Login(string userName, string passWord)
-        {
-            return AccountDAO.Instance.Login(userName, passWord);
-        }
-
-        private void btnExit_Click(object sender, EventArgs e)
+        private void tsmIDangXuat_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void fmLogin_FormClosing(object sender, FormClosingEventArgs e)
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (MessageBox.Show("Bạn có thật sự muốn thoát.", "Thông Báo", MessageBoxButtons.OKCancel) != System.Windows.Forms.DialogResult.OK)
             {
@@ -52,16 +30,16 @@ namespace Login
             }
         }
 
-        private void btnForgetPass_Click(object sender, EventArgs e)
+        private void tsmIDangNhap_Click(object sender, EventArgs e)
         {
-            frmConfirmEmail findPassword = new frmConfirmEmail();
-            findPassword.ShowDialog();
+            frmLogin login = new frmLogin();
+            login.ShowDialog();
         }
 
-        private void btnRegister_Click(object sender, EventArgs e)
+        private void tsmIDangKi_Click(object sender, EventArgs e)
         {
-            frmRegister frmregister = new frmRegister();
-            frmregister.ShowDialog();
+            frmRegister register = new frmRegister();
+            register.ShowDialog();
         }
     }
 }
